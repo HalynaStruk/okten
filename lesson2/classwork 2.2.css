@@ -1,0 +1,17 @@
+.figure {
+    background: #808080;
+    width: 300px;
+    height: 150px;
+    margin: 80px 40px 10px 100px;
+    box-shadow: #e5d6bf -8px -10px 10px 10px;
+
+}
+.P {
+    border-left: 4px solid #dc3d3b;
+    padding: 0px;
+    margin: 10px 40px 10px 100px;
+
+}
+.P2 {
+    margin: 1px 1px 1px 20px;
+}
