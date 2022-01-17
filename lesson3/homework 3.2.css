@@ -1,0 +1,57 @@
+#Widgets {
+    background: #2269bb;
+    color: white;
+    width: 399px;
+    height: 150px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#variousWidgets {
+    display: flex;
+    column-gap: 12px;
+
+}
+.BigWidgets {
+    background: #16457a;
+    color: #a9afc2;
+    width: 125px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.BiggerWidgets {
+    background: #16457a;
+    color: #a9afc2;
+    width: 125px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.HugeWidgets {
+    background: #16457a;
+    color: #a9afc2;
+    width: 125px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#Contact {
+    background: #2269bb;
+    color: white;
+    width: 399px;
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
