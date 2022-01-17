@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
 
 }
 #variousWidgets {
@@ -28,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
 
 }
 .BiggerWidgets {
@@ -38,6 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
 
 }
 .HugeWidgets {
@@ -48,6 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
 
 }
 #Contact {
@@ -59,5 +63,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
 
 }
