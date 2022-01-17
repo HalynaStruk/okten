@@ -1,0 +1,79 @@
+#General {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+.HomeAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+
+}
+.Home {
+    background: #2269bb;
+    width: 165px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #abadc4;
+    font-size: 25px;
+
+}
+.About{
+    background: #2269bb;
+    width: 165px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #abadc4;
+    font-size: 25px;
+}
+.Kabobs {
+    background: #2269bb;
+    width: 330px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #abadc4;
+    font-size: 25px;
+}
+.TypesOfKebabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+
+}
+.Shishkabobs {
+    background: #16457a;
+    width: 110px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #abadc4;
+}
+.BBQKabobs {
+    background: #16457a;
+    width: 110px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #abadc4;
+}
+.SummerKabobs {
+    background: #16457a;
+    width: 110px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #abadc4;
+}
