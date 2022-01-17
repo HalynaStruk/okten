@@ -1,5 +1,4 @@
 #ABCDEFGH {
-    /*Не виходить поставити все поцентру сторінки*/
     display: flex;
     flex-direction: column;
     align-items: center;
