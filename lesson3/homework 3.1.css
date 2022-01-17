@@ -28,6 +28,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /*Текст виходить за межі блока і не розумію, як його перенести*/
+    /*flex-wrap: wrap;*/
+
+
 }
 #Post1 {
     width: 130px;
