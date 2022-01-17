@@ -1,3 +1,9 @@
+.pageW {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #Widgets {
     background: #2269bb;
     color: white;

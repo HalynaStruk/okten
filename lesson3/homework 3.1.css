@@ -1,3 +1,9 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #header {
     width: 200px;
     height: 40px;
@@ -7,9 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
 }
 #general {
     width: 200px;
@@ -25,8 +28,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 #Post1 {
     width: 130px;
