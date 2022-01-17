@@ -1,0 +1,74 @@
+#header {
+    width: 200px;
+    height: 40px;
+    background: #e7f6af;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+#general {
+    width: 200px;
+    height: 150px;
+    display: flex;
+}
+#menu {
+    background: #ffb7ff ;
+    width: 60px;
+    height: 152px;
+    margin-right: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+
+}
+#Post1 {
+    width: 130px;
+    height: 152px;
+
+
+}
+.post {
+    width: 130px;
+    height: 70px;
+    background: #9ee2ff;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.post {
+    width: 130px;
+    height: 70px;
+    background: #9ee2ff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#footer {
+    background: #feffc9;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
