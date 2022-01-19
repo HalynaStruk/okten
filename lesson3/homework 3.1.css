@@ -28,15 +28,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*Текст виходить за межі блока і не розумію, як його перенести*/
-    /*flex-wrap: wrap;*/
-
-
+    flex-wrap: wrap;
+}
+p {
+    width: 60px;
+    font-size: 13px;
+    word-wrap: break-word;
+    margin-left: 5px;
 }
 #Post1 {
     width: 130px;
     height: 152px;
-
 
 }
 .post {
