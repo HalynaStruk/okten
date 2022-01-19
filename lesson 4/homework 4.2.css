@@ -1,0 +1,42 @@
+.width390 {
+    width: 414px;
+}
+.width130 {
+    width: 130px;
+}
+.height150 {
+    height: 150px;
+}
+.height135 {
+    height: 135px;
+}
+.height300 {
+    height: 300px;
+}
+.bgb {
+    background: #2269bb;
+    color: white;
+    font-size: 30px;
+}
+.bgdb {
+    background: #16457a;
+    color: #a9afc2;
+}
+.borderr {
+    border-radius: 2px;
+}
+.columngap {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+}
+.rowgap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
