@@ -1,0 +1,52 @@
+.width200 {
+    width: 200px;
+}
+.width60 {
+    width: 60px;
+}
+.width130 {
+    width: 130px;
+}
+.height40 {
+    height: 40px;
+}
+.height70 {
+    height: 70px;
+}
+.height150 {
+    height: 150px;
+}
+.bgb {
+    background: #1b90d9;
+}
+.bgg {
+    background: #6bba67;
+}
+.header, .menu, .post, .footer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    word-wrap: break-word;
+
+}
+.columngap {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.rowgap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    margin: 4px;
+}
