@@ -1,0 +1,54 @@
+.width400 {
+    width: 400px;
+}
+.width300 {
+    width: 300px;
+}
+.width100 {
+    width: 100px;
+}
+.height200 {
+    height: 200px;
+}
+.height100 {
+    height: 100px;
+}
+.height300 {
+    height: 300px;
+}
+.bg {
+    background: silver;
+    color: #656262;
+}
+.columngap {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4px;
+}
+.rowgap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+div, .rowgap.columngap.bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.ABCDEF {
+    border-radius: 20px;
+    border: 3px solid #6c6a6a;
+    width: 420px;
+    height: 316px;
+}
+.A {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.F {
+    border-bottom-right-radius: 15px;
+}
+.C {
+    border-bottom-left-radius: 15px;
+}
