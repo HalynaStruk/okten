@@ -29,6 +29,7 @@
     align-items: center;
     font-size: 13px;
     word-wrap: break-word;
+    box-sizing: border-box;
 
 }
 .columngap {
