@@ -1,0 +1,43 @@
+.width155 {
+    width: 155px;
+}
+.width320 {
+    width: 320px;
+}
+.width100 {
+    width: 100px;
+}
+.height300 {
+    height: 300px;
+}
+.height200 {
+    height: 200px;
+}
+.height150 {
+    height: 150px;
+}
+.style1 {
+    background: #2269bb;
+    color: #abadc4;
+    font-size: 30px;
+}
+.style2 {
+    background: #16457a;
+    color: #abadc4;
+    font-size: 14px;
+}
+.columngap {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.rowgap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
