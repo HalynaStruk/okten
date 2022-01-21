@@ -22,7 +22,7 @@
 .bgg {
     background: #6bba67;
 }
-.header, .menu, .post, .footer {
+.style {
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@
     flex-direction: column;
     row-gap: 10px;
 }
-.page {
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
