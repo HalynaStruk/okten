@@ -36,17 +36,17 @@ div, .rowgap.columngap.bg {
     align-items: center;
     box-sizing: border-box;
 }
-.ABCDEF {
+ body>div {
     border-radius: 20px;
     border: 3px solid #6c6a6a;
     width: 420px;
     height: 316px;
 }
-.A {
+div.width400.height100 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.F {
+div.width100.height200 {
     border-bottom-right-radius: 15px;
 }
 .C {
