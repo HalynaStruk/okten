@@ -1,0 +1,83 @@
+.width200 {
+    width: 200px;
+}
+.height200 {
+    height: 200px;
+}
+.bg {
+    background: silver;
+    color: #656262;
+}
+div {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+body>div {
+    border-radius: 30px;
+    border: 3px solid #6c6a6a;
+    width: 856px;
+    height: 646px;
+}
+.A {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 830px;
+}
+.H {
+    border-bottom-right-radius: 25px;
+    height: 410px;
+}
+.E {
+    border-bottom-left-radius: 25px;
+}
+.columngap {
+    flex-direction: row;
+    column-gap: 10px;
+}
+.rowgap {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.rowgapreverse {
+    flex-direction: row-reverse;
+    column-gap: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .width200 {
+        width: 100px;
+    }
+    .height200 {
+        height: 100px;
+    }
+    body>div {
+        border-radius: 30px;
+        width: 380px;
+        height: 595px;
+    }
+    .A {
+        width: 330px;
+    }
+    .H {
+        width: 330px;
+        height: 200px;
+    }
+    .columngap {
+        flex-direction: row;
+        column-gap: 15px;
+    }
+    .rowgap {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .rowgapreverse {
+        flex-direction: column-reverse;
+        row-gap: 15px;
+    }
+    div {
+        border-radius: 25px;
+        font-size: 60px;
+    }
+}
