@@ -110,21 +110,16 @@ span {
     .width300 {
         width: 410px;
     }
-
     .R {
         width: 410px;
         height: 170px;
     }
-    /*div.width620.height170 {*/
-    /*    width: 300px;*/
-    /*    height: 170px;*/
-    /*}*/
-    /*div.width300.height310 {*/
-    /*    width: 410px;*/
-    /*    height: 300px;*/
-    /*}*/
-    /*div, .A.L {*/
-    /*    width: 100px;*/
-    /*    height: 80px;*/
-    /*}*/
+    div.width620.height170 {
+        width: 410px;
+        height: 170px;
+    }
+    div.height730.width620 {
+        width: 410px;
+        height: 1120px;
+    }
 }
