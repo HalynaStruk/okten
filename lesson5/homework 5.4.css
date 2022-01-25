@@ -7,6 +7,9 @@
 .width300 {
     width: 300px;
 }
+.width200 {
+    width: 200px;
+}
 .width620 {
     width: 620px;
 }
@@ -54,4 +57,74 @@ span {
 }
 .C {
    margin: 0 auto;
+}
+.no {
+    display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .no {
+        display: flex;
+    }
+    .none {
+        display: none;
+        margin: 0;
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .row {
+        row-gap: 10px;
+    }
+    .TP {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .width460 {
+        width: 250px;
+    }
+    .Z {
+        width: 300px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .height730 {
+        height: 1090px;
+    }
+    .Nav {
+        width: 410px;
+        height: 80px;
+    }
+    div .width300.height170 {
+        width: 250px;
+
+    }
+    div.G.row {
+        display: flex;
+        flex-direction: column;
+        column-gap: 5px;
+    }
+    .width300 {
+        width: 410px;
+    }
+
+    .R {
+        width: 410px;
+        height: 170px;
+    }
+    /*div.width620.height170 {*/
+    /*    width: 300px;*/
+    /*    height: 170px;*/
+    /*}*/
+    /*div.width300.height310 {*/
+    /*    width: 410px;*/
+    /*    height: 300px;*/
+    /*}*/
+    /*div, .A.L {*/
+    /*    width: 100px;*/
+    /*    height: 80px;*/
+    /*}*/
 }
