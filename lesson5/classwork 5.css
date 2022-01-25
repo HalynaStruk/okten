@@ -53,5 +53,34 @@
     height: 25px;
 }
 .height15 {
-    height: 15px;
+    height: 10px;
+}
+.bg {
+    background: silver;
+}
+.border {
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.column5 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.row5 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 240px;
+    justify-content: center;
+    align-items: center;
 }
