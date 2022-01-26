@@ -155,7 +155,6 @@ div.width60.height385 {
         flex-direction: column;
     }
     .rowgap {
-        /*номер 4*/
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -177,10 +176,6 @@ div.width60.height385 {
         border-left: 3px solid black;
         display: flex;
         flex-wrap: wrap;
-        /*display: flex;*/
-        /*align-items: center;*/
-        /*flex-direction: column;*/
-        /*row-gap: 10px;*/
     }
     .mobwh1 {
         width: 100px;
@@ -193,5 +188,93 @@ div.width60.height385 {
     }
     .mobwh2 {
         width: 80px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 375px) {
+    .border2 {
+        display: none;
+    }
+    .width350 {
+        width: 180px;
+    }
+    .row5 {
+        column-gap: unset;
+        flex-direction: column;
+        row-gap: 5px;
+        height: 45px;
+    }
+    .mobwh3 {
+        width: 160px;
+    }
+    .width290 {
+        width: 180px;
+    }
+    .height135 {
+        height: 80px;
+    }
+    .width270 {
+        width: 160px;
+    }
+    .height115 {
+        height: 60px;
+    }
+    .height70 {
+        height: 150px;
+    }
+    .height55 {
+        height: 45px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .rowgap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        column-gap: unset;
+    }
+    div.width60.height50 {
+        width: 75px;
+    }
+    .none {
+        display: none;
+    }
+    .none2 {
+        display: none;
+    }
+    div.width230.height385 {
+        height: 210px;
+        width: 180px;
+    }
+    div.width100.height50 {
+        width: 160px;
+        height: 25px;
+    }
+    div.width60.height385 {
+        height: 230px;
+        width: 180px;
+        border-left: 3px solid black;
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .margin {
+        margin-top: unset;
+    }
+    .mobwh1 {
+        width: 160px;
+        height: 95px;
+        margin-top: unset;
+        margin-bottom: 10px;
+    }
+    .mobwh {
+        width: 160px;
+        height: 25px;
+    }
+    .mobwh2 {
+        width: 50px;
     }
 }
