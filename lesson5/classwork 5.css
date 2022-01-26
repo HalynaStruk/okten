@@ -159,6 +159,7 @@ div.width60.height385 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        column-gap: unset;
     }
     div.width60.height50 {
         width: 100px;
