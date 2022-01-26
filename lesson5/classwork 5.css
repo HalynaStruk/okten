@@ -104,11 +104,11 @@ div.width60.height385 {
     flex-direction: column;
     row-gap: 10px;
 }
-/*.column {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    row-gap: 10px;*/
-/*}*/
+.column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
 .row {
     display: flex;
     flex-direction: row;
