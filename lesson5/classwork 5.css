@@ -185,7 +185,11 @@ div.width60.height385 {
         width: 100px;
         height: 95px;
     }
-    div.width40 height30 {
-
+    .mobwh {
+        width: 100px;
+        height: 25px;
+    }
+    .mobwh2 {
+        width: 80px;
     }
 }
