@@ -125,7 +125,7 @@ div.width60.height385 {
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width: 0px) and (max-width: 414px) {
+@media screen and (min-width: 196px) and (max-width: 246px) {
     .border2 {
         display: none;
     }
@@ -190,7 +190,7 @@ div.width60.height385 {
         width: 80px;
     }
 }
-@media screen and (min-width: 0px) and (max-width: 375px) {
+@media screen and (min-width: 0px) and (max-width: 196px) {
     .border2 {
         display: none;
     }
@@ -255,8 +255,6 @@ div.width60.height385 {
         height: 230px;
         width: 180px;
         border-left: 3px solid black;
-        /*display: flex;*/
-        /*flex-direction: row;*/
         justify-content: center;
         align-items: center;
         row-gap: 10px;
