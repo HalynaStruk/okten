@@ -132,4 +132,60 @@ div.width60.height385 {
     .width350 {
         width: 230px;
     }
+    .row5 {
+        column-gap: 110px;
+    }
+    .width290 {
+        width: 230px;
+    }
+    .height135 {
+        height: 80px;
+    }
+    .width270 {
+        width: 210px;
+    }
+    .height115 {
+        height: 60px;
+    }
+    .height70 {
+        height: 150px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .rowgap {
+        /*номер 4*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    div.width60.height50 {
+        width: 100px;
+        height: 60px;
+    }
+    .none {
+        display: none;
+    }
+    div.width230.height385 {
+        height: 215px;
+    }
+    div.width60.height385 {
+        height: 115px;
+        width: 230px;
+        border-left: 3px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*flex-direction: column;*/
+        /*row-gap: 10px;*/
+    }
+    .margin {
+        width: 100px;
+        height: 95px;
+    }
+    div.width40 height30 {
+
+    }
 }
