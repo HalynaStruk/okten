@@ -252,5 +252,42 @@
     line-height: 25px;
     color: var(--black-color);
 }
+.part7 {
+    width: 1150px;
+    height: 283px;
+    background: #8BD4D6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 196px;
+    margin-top: 186px;
+}
+.title7 {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    color: var(--black-color);
+    margin-bottom: 28px;
+}
+.text7 {
+    font-size: 20px;
+    line-height: 31px;
+    color: var(--black-color);
+}
+.btn7 {
+    width: 159px;
+    height: 50px;
+    background: var(--black-color);
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
 
 
