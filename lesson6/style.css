@@ -287,6 +287,22 @@
     border: none;
     cursor: pointer;
 }
+.part8 {
+    height: 631px;
+    background: #302E3F;
+    margin-top: 108px;
+    padding-top: 54px;
+}
+.title8 {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+.Maintitle8 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
 
 
 
