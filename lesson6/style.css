@@ -201,3 +201,22 @@
     padding-top: 88px;
     margin: 0;
 }
+.img5 {
+    width: 665px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+.part5 {
+    display: flex;
+    column-gap: 137px;
+    padding-top: 129px;
+}
+.text5 {
+    width: 236px;
+    height: 72px;
+    font-size: 27px;
+    line-height: 36px;
+    color: var(--black-color);
+}
+
