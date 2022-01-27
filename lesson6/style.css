@@ -116,3 +116,36 @@
     border: none;
     cursor: pointer;
 }
+.header_wrpap__content2 {
+    display: flex;
+    margin-top: 159px;
+    column-gap: 104px;
+    align-items: center;
+    justify-content: space-between;
+    height: 507px;
+}
+.header_content2 {
+    width: 515px;
+    min-width: 515px;
+}
+.header_content__title2 {
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 58px;
+    color: var(--black-color);
+    margin-bottom: 33px;
+}
+.image2 {
+    height: 280px;
+    width: 483px;
+}
+.title3 {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    color: var(--black-color);
+    margin-top: 133px;
+}
+.content3 {
+
+}
