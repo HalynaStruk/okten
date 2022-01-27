@@ -325,8 +325,16 @@
 .contacts {
     padding-top: 50px;
 }
-.additional_information {}
-
+.additional_information {
+    display: flex;
+    padding-top: 62px;
+    column-gap: 27px;
+}
+.add {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
 
 
 
