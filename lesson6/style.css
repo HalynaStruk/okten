@@ -303,6 +303,30 @@
     line-height: 36px;
     color: #FFFFFF;
 }
+.general_information {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+.subtitle8 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.text8 {
+    font-size: 16px;
+    line-height: 16px;
+    color: #C5E9EA;
+    padding-bottom: 8px;
+}
+.contacts {
+    padding-top: 50px;
+}
+.additional_information {}
+
 
 
 
