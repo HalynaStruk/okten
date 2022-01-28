@@ -145,5 +145,19 @@ i {
     margin: 192px 32px;
     display: flex;
 }
-
+.part4_title {
+    height: 120px;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: var(--darkblue-color);
+    margin: 114px 121px 35px 20px;
+}
+.part4_txt {
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--darkblue-color);
+    margin-left: 20px;
+    margin-right: 145px;
+}
 
