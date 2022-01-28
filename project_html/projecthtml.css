@@ -250,14 +250,6 @@ i {
     display: flex;
     column-gap: 263px;
 }
-/*.part8_content {*/
-/*    width: 513px;*/
-/*    height: 348px;*/
-/*}*/
-.img_part8 {
-    width: 513px;
-
-}
 .part8_title {
     font-size: 34px;
     line-height: 40px;
@@ -322,6 +314,7 @@ i {
     color: var(--darkblue-color);
     border: none;
 }
+
 
 
 
