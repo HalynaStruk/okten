@@ -56,6 +56,16 @@ i {
     line-height: 24px;
     color: #FFFFFF;
 }
-
+.part2 {
+    display: flex;
+}
+.img_part2_yellow {
+    position: relative;
+}
+.img_part2_onyellow {
+    position: absolute;
+    left: -100px;
+    top: 173px;
+}
 
 
