@@ -6,6 +6,7 @@
 :root {
     --black-color: #000;
     --darkblue-color: #0B2330;
+    --yellow-color: #F9C600;
 }
 .top_bar {
     display: flex;
@@ -38,8 +39,6 @@ i {
 .arrow {
     transform: rotate(45deg);
     margin-left: 8px;
-    /*transition-property: initial;*/
-    /*-webkit-transition-duration: rotate(45deg);*/
 }
 .nav_menu_button {
     display: flex;
@@ -93,8 +92,8 @@ i {
 .btn_part2_yellow {
     width: 163px;
     height: 54px;
-    background: #F9C600;
-    border: 1px solid #F9C600;
+    background: var(--yellow-color);
+    border: 1px solid var(--yellow-color);
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 16px;
@@ -149,7 +148,6 @@ i {
     height: 120px;
     font-size: 34px;
     line-height: 40px;
-    letter-spacing: 0.34px;
     color: var(--darkblue-color);
     margin: 114px 121px 35px 20px;
 }
@@ -160,4 +158,28 @@ i {
     margin-left: 20px;
     margin-right: 145px;
 }
+.part5 {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part5_title {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--darkblue-color);
+    width: 711px;
+    height: 80px;
+    margin-bottom: 57px;
+}
+.btn_part5 {
+    background: var(--yellow-color);
+    border: 1px solid var(--yellow-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+
 
