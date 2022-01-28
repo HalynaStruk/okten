@@ -5,6 +5,7 @@
 }
 :root {
     --black-color: #000;
+    --darkblue-color: #0B2330;
 }
 .top_bar {
     display: flex;
@@ -48,8 +49,8 @@ i {
 .nav_button {
     height: 54px;
     width: 163px;
-    background: #0B2330;
-    border: 1px solid #0B2330;
+    background: var(--darkblue-color);
+    border: 1px solid var(--darkblue-color);
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 16px;
@@ -67,5 +68,47 @@ i {
     left: -100px;
     top: 173px;
 }
-
+.part2_content {
+    padding: 154px 147px 256px 147px;
+}
+.part2_title {
+    width: 436px;
+    height: 256px;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+    color: var(--darkblue-color);
+    margin-bottom: 32px;
+}
+.part2_txt {
+    font-size: 22px;
+    line-height: 32px;
+    color: #375361;
+    margin-bottom: 38px;
+}
+.part2_button {
+    display: flex;
+    column-gap: 16px;
+}
+.btn_part2_yellow {
+    width: 163px;
+    height: 54px;
+    background: #F9C600;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--darkblue-color);
+}
+.btn_part2_white {
+    width: 156px;
+    height: 54px;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
+}
 
