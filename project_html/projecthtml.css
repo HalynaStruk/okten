@@ -137,4 +137,13 @@ i {
     width: 1092px;
     margin: 0 auto;
 }
+.part4 {
+    width: 1376px;
+    height: 494px;
+    background: #51CEBC;
+    border-radius: 10px;
+    margin: 192px 32px;
+    display: flex;
+}
+
 
