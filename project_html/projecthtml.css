@@ -198,6 +198,23 @@ i {
     left: -116px;
     top: 64px;
 }
+.part6_title {
+    font-size: 42px;
+    line-height: 48px;
+    color: var(--darkblue-color);
+    height: 192px;
+    width: 485px;
+    margin-top: 103px;
+}
+.part6_txt {
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--darkblue-color);
+    margin-top: 39px;
+    height: 56px;
+    width: 550px;
+}
+
 
 
 
