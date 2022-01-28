@@ -127,5 +127,14 @@ i {
     width: 547px;
     height: 96px;
 }
-
+.img_part3_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-column-gap: 82px;
+    grid-row-gap: 16px;
+    padding-top: 59px;
+    width: 1092px;
+    margin: 0 auto;
+}
 
