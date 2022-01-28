@@ -7,6 +7,7 @@
     --black-color: #000;
     --darkblue-color: #0B2330;
     --yellow-color: #F9C600;
+    --grey-blue-color: #375361
 }
 .top_bar {
     display: flex;
@@ -82,7 +83,7 @@ i {
 .part2_txt {
     font-size: 22px;
     line-height: 32px;
-    color: #375361;
+    color: var(--grey-blue-color);
     margin-bottom: 38px;
 }
 .part2_button {
@@ -104,7 +105,7 @@ i {
 .btn_part2_white {
     width: 156px;
     height: 54px;
-    border: 1px solid #0B2330;
+    border: 1px solid var(--darkblue-color);
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 16px;
@@ -213,6 +214,31 @@ i {
     margin-top: 39px;
     height: 56px;
     width: 550px;
+}
+.part7 {
+    margin-left: 148px;
+}
+.subtitle7 {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #6A7981;
+}
+.part7_title {
+    width: 593px;
+    height: 144px;
+    font-size: 42px;
+    line-height: 48px;
+    color: var(--darkblue-color);
+    margin-top: 13px;
+    margin-bottom: 26px;
+}
+.part7_txt {
+    height: 32px;
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--grey-blue-color);
+    margin-bottom: 219px;
 }
 
 
