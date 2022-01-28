@@ -185,6 +185,20 @@ i {
     color: var(--darkblue-color);
     margin-top: 113px;
 }
+.part6 {
+    width: 1260px;
+    height: 537px;
+    background: #BD78F0;
+    border-radius: 10px;
+    display: flex;
+    margin: 160px 32px 136px 148px;
+}
+.img_part6 {
+    position: relative;
+    left: -116px;
+    top: 64px;
+}
+
 
 
 
