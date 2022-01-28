@@ -174,10 +174,16 @@ i {
     margin-bottom: 57px;
 }
 .btn_part5 {
+    width: 163px;
+    height: 54px;
     background: var(--yellow-color);
     border: 1px solid var(--yellow-color);
     box-sizing: border-box;
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--darkblue-color);
+    margin-top: 113px;
 }
 
 
