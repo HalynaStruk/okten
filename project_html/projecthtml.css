@@ -338,6 +338,10 @@
     column-gap: 141px;
     margin-top: 122px;
 }
+.accordion {
+    width: 589px;
+    border-top: 2px solid #C9316F;
+}
 .tab input, .tab-content { display: none; }
 .tab {
     width: 589px;
