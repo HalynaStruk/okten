@@ -560,16 +560,22 @@
 .title_txt{
     width: 160px;
 }
-.part13_title {
+.part13_title a {
     font-size: 16px;
     line-height: 24px;
     color: var(--yellow-color);
 }
-.part13_txt {
+.part13_txt a {
     font-size: 16px;
     line-height: 24px;
     color: #94A0A4;
-    margin-top: 14px;
+}
+.title_txt p {
+    margin-bottom: 14px;
+}
+.part13_txt a,
+.title_txt a {
+    text-decoration: none;
 }
 .part13_txt_img {
     display: flex;
@@ -580,5 +586,7 @@
     display: flex;
     column-gap: 24px;
 }
+
+
 
 
