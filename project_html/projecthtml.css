@@ -69,7 +69,12 @@
     top: 173px;
 }
 .part2_content {
+    min-width: 436px;
+    width: 436px;
     padding: 154px 147px 256px 147px;
+}
+.part2_img img {
+    width: 100%;
 }
 .part2_title {
     width: 436px;
